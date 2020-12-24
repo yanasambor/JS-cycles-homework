@@ -11,8 +11,6 @@
         if(winterDays[i]<0 && winterDays[i-1]>=0){
             froze++;
         }
-        if(winterDays[i]<0 && winterDays[i-1]<0){
-        }
 
     }
     console.log(`Froze ${froze}`);
